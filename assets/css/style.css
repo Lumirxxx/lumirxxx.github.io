@@ -587,8 +587,13 @@ img {
 .button--blue {
     background-color: #005FCF;
     color: #fff;
+    margin-top: 2.6rem;
 }
 
 .button--blue:hover {
     background-color: #0254b1;
+}
+
+.button--big > img {
+    margin-left: 43px;
 }
