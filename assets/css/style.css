@@ -372,3 +372,223 @@ img {
     color: #fff;
     text-decoration: none;
 }
+
+.content {
+    margin-bottom: 3.75rem;
+}
+
+.content-inner {
+    padding: 65px 0 95px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.content-inner.dark {
+    background-color: #010D1B;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.content-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 850px;
+    padding: 0 45px;
+}
+
+.content-title {
+    margin-bottom: 56px;
+    font-size: 43px;
+    color: #fff;
+    max-width: 490px;
+}
+
+.content-project-types {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.project-type-item {
+    width: 240px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 56px;
+    cursor: pointer;
+    max-width: 31%;
+}
+
+.project-type-image {
+    margin-bottom: 24px;
+    height: 166px;
+    max-width: 240px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 17px;
+}
+
+.project-type-item > .project-type-image {
+    background-color: white;
+}
+
+.content-title {
+    margin-bottom: 56px;
+    font-size: 43px;
+    color: #fff;
+    max-width: 490px;
+}
+
+.project-type-image > .check {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    opacity: 0;
+}
+
+.project-type-item.selected > .project-type-image > .check {
+    opacity: 1;
+}
+
+.project-type-item.selected > .project-type-image > .image {
+    opacity: .5;
+}
+
+.project-type-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.project-type-text {
+    font-size: 14px;
+}
+
+.project-type-image > .image {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+  /* z-index: 1; */
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: opacity .2s linear;
+    -o-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+}
+
+.project-type-item:hover > .project-type-image > .image, .project-type-item:focus > .project-type-image > .image, .project-type-item.active > .project-type-image > .image, .project-type-item.selected > .project-type-image > .image {
+    opacity: .5;
+}
+
+.input, .input-area {
+    padding: 30px;
+    display: block;
+    width: 100%;
+    border-radius: 17px;
+    font-size: 21px;
+    color: #000;
+    border: none;
+}
+
+.input-area {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    height: 198px;
+    resize: none;
+}
+
+.request-form > .input-area {
+    margin-bottom: 55px;
+}
+
+.request-form > .form-title {
+    margin-bottom: 25px;
+    font-size: 27px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+.input, .input-area {
+    padding: 30px;
+    display: block;
+    width: 100%;
+    border-radius: 17px;
+    font-size: 21px;
+    color: #000;
+    border: none;
+}
+
+.request-form > .input:not(.input-area) {
+    margin-bottom: 28px;
+}
+
+.request-form > .permissions {
+    margin-bottom: 55px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.button.button-check {
+    width: 29px;
+    height: 29px;
+    border: 1px solid #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.request-form > .permissions > .button-check {
+    margin-right: 10px;
+}
+
+.button.button-check > svg {
+    opacity: 0;
+    -webkit-transition: opacity .1s linear;
+    -o-transition: opacity .1s linear;
+    transition: opacity .1s linear;
+}
+
+.button.button-check:hover > svg, .button.button-check:focus > svg, .button.button-check.selected > svg {
+    opacity: 1;
+}
+
+.button--big {
+    padding: 38px 76px;
+    font-size: 27px;
+    border-radius: 17px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.button--blue {
+    background-color: #005FCF;
+    color: #fff;
+}
+
+.button--blue:hover {
+    background-color: #0254b1;
+}
