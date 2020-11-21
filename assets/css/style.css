@@ -280,6 +280,10 @@ img {
 }
 
 .slider-image {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-bottom: 33%;
     width: 100%;
     max-width: 360px;
     overflow-y: hidden;
@@ -509,10 +513,9 @@ img {
     border-radius: 17px;
 }
 
-.project-type-item > .project-type-image {
-    background-color: white;
-}
-
+/*.project-type-item > .project-type-image {
+    background-color: rgb(255, 255, 255);
+}*/
 .content-title {
     margin-bottom: 56px;
     font-size: 43px;
