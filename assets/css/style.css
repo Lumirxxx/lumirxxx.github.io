@@ -760,3 +760,40 @@ img {
     min-height: 0;
     margin-bottom: 1.4rem;
 }
+
+.check-button {
+    position: absolute;
+    z-index: 2;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    top: 13px;
+    left: 13px;
+}
+
+.input-radio-check {
+    width: 240px;
+    height: 167px;
+    opacity: 0;
+    position: relative;
+    z-index: 3;
+}
+
+.project-type-image .check-button:before {
+    content: "";
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background: url(/assets/img/check.svg) 0 0 no-repeat;
+    display: none;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.input-radio-check:checked + .check-button:before {
+    display: block;
+}
