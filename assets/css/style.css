@@ -879,7 +879,7 @@ img {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 61%;
+    padding-bottom: 47%;
     background-image: url(/assets/img/top-mainimg.png);
 }
 
@@ -895,6 +895,7 @@ img {
     width: 100%;
     margin: auto;
     font-size: 2.4rem;
+    line-height: 1.3;
 }
 
 .title-blue {
@@ -929,4 +930,44 @@ img {
 .button-dlin-page:hover {
     color: #fff;
     text-decoration: none;
+}
+
+.mac-content_button-row {
+    margin-top: 1.8rem;
+}
+
+.sec-dlin-succef {
+    background-color: #010D1B;
+}
+
+.succe-info_title {
+    color: #CFEBED;
+    font-size: 4rem;
+    line-height: 1.12;
+    max-width: 51.5rem;
+    margin-bottom: 5.85rem;
+    text-transform: uppercase;
+}
+
+.succe-info-item_title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #E5E5E5;
+    line-height: 1.12;
+    letter-spacing: 0.03em;
+    margin-top: 2rem;
+    margin-bottom: 13px;
+}
+
+.succe-info-item_subtitle {
+    font-size: .9rem;
+    color: #FFF9DD;
+    opacity: 0.7;
+    line-height: 1.12;
+    letter-spacing: 0.03em;
+}
+
+.succe-info-item {
+    margin-bottom: 2.7rem;
 }
