@@ -15,6 +15,13 @@ body {
     padding: 0 15px;
 }
 
+.container-dlin {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1450px;
+    padding: 0 15px;
+}
+
 @media (min-width: 1441px) {
     html {
         font-size: 20px;
@@ -796,4 +803,130 @@ img {
 
 .input-radio-check:checked + .check-button:before {
     display: block;
+}
+
+.up__header-dlin {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    max-width: none;
+}
+
+.dlin-mac-info-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.dlin-mac-info-row_col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.parthner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    width: 10.55rem;
+    height: 10.55rem;
+    border-radius: 50%;
+    background-color: #010D1B;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.parthner_title {
+    font-size: 1.2rem;
+    text-align: start;
+    padding-left: 2.25rem;
+    color: #CCE9EB;
+    line-height: 113.2%;
+    letter-spacing: 0.03em;
+}
+
+.parthner_id {
+    color: #010D1B;
+    background-color: #CDEAEC;
+    padding: 8.33px;
+    margin-top: 13px;
+    border-radius: 7.5px;
+}
+
+.parthner_bitr {
+    position: absolute;
+    top: 0;
+    right: -16px;
+}
+
+.sec-macb {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 61%;
+    background-image: url(/assets/img/top-mainimg.png);
+}
+
+.dlin-mac-info-row_col-title {
+    font-size: 3.2rem;
+    max-width: 39rem;
+    line-height: 134.2%;
+    letter-spacing: 0.03em;
+}
+
+.dlin-mac-info-row_col-subtitle {
+    max-width: 27.6rem;
+    width: 100%;
+    margin: auto;
+    font-size: 2.4rem;
+}
+
+.title-blue {
+    color: #005FCF;
+}
+
+.sub-title-red {
+    color: #fff;
+    background-color: #D74D40;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 6px;
+}
+
+.button-dlin-page {
+    font-size: 1.35rem;
+    line-height: 1.2;
+    padding-top: 1.9rem;
+    padding-bottom: 1.9rem;
+    padding-left: 3.8rem;
+    padding-right: 6.7rem;
+    background-color: #005FCF;
+    border-radius: 17px;
+    background-image: url(/assets/img/arrow-btn.svg);
+    background-position: 80%;
+    background-repeat: no-repeat;
+    display: table;
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-dlin-page:hover {
+    color: #fff;
+    text-decoration: none;
 }
