@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'URWgeometric';
+    src: url(/assets/fonts/URWGeometric-Regular.woff);
+}
+
 /* Default styles */
 body {
     margin: 0;
@@ -16,6 +21,7 @@ body {
 }
 
 .container-dlin {
+    font-family: 'URWgeometric';
     margin: 0 auto;
     width: 100%;
     max-width: 1450px;
@@ -921,6 +927,7 @@ img {
     border-radius: 17px;
     background-image: url(/assets/img/arrow-btn.svg);
     background-position: 80%;
+    background-position-y: 55%;
     background-repeat: no-repeat;
     display: table;
     text-decoration: none;
@@ -1209,4 +1216,117 @@ img {
 
 .label-check {
     margin: 0;
+}
+
+.shop-work-content {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+.shop-work-content_title {
+    font-size: 4rem;
+    font-weight: 900;
+    max-width: 1109px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 4.5rem;
+    color: #010D1B;
+    margin-bottom: 8rem;
+}
+
+.slide-col-info_logo {
+    margin-bottom: 1.35rem;
+}
+
+.slide-col-info_title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 0.03em;
+}
+
+.slide-col-info_subtitle {
+    font-size: 1.05rem;
+    opacity: 0.7;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    margin-bottom: 3.35rem;
+    margin-top: 1.3rem;
+}
+
+.shop-work-content_slide {
+    position: relative;
+    background-color: #C4C4C4;
+    border-radius: 4px;
+    padding-top: 4rem;
+    margin-bottom: 11.25rem;
+}
+
+.shop-work-content_slide_row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.shop-work-content_slide_row_imgslide {
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 593px;
+}
+
+.shop-work-content_slide_row_col-info {
+    max-width: 25.4rem;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+.mac-content_button-row__slide-button {
+    margin: 0;
+}
+
+.button-dlin-page__slide-button {
+    padding-left: 2.5rem;
+    padding-right: 5.55rem;
+}
+
+.shop-work-content_slide_achive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: -3.25rem;
+    left: 2.5rem;
+}
+
+.shop-work-content_slide_achive_img {
+    width: 5.85rem;
+    height: 5.85rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+.up__header-dlin__shopw {
+    margin-top: 1.5rem;
+    height: 50px;
+}
+
+.shop-work-content_slide__pink {
+    background-color: #856E92;
+}
+
+.button-dlin-page__slide-button__pink {
+    background-image: url(/assets/img/clouse.svg);
+    background-color: #fff;
+    color: #010D1B;
 }
