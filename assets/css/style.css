@@ -103,14 +103,18 @@ img {
     line-height: 20px;
 }
 
-.link-header {
+.link-header__whatsup {
+    width: 52px;
+}
+
+.link-header-text {
     font-size: .7rem;
     line-height: 20px;
     opacity: 0.7;
     color: #000;
 }
 
-.link-header:hover {
+.link-header-text:hover {
     color: #000;
     text-decoration: none;
 }
