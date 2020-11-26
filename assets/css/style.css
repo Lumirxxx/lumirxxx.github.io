@@ -24,7 +24,7 @@ body {
     font-family: 'URWgeometric';
     margin: 0 auto;
     width: 100%;
-    max-width: 1450px;
+    max-width: 1480px;
     padding: 0 15px;
 }
 
@@ -1525,4 +1525,203 @@ img {
 .speciality-content_title__bottom {
     max-width: 46.25rem;
     margin-right: auto;
+}
+
+.speciality-content__bottom_info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.speciality-content__bottom_info_item {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #219653;
+    max-width: 30.8rem;
+    width: 100%;
+    padding-left: 3rem;
+    padding-top: 12.5rem;
+    padding-bottom: 2.5rem;
+    border-radius: 4px;
+}
+
+.speciality-content__bottom_info_item_img {
+    position: absolute;
+    top: -3rem;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.speciality-content__bottom_info_item_title {
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 113.2%;
+    font-weight: 900;
+    margin-bottom: .85rem;
+}
+
+.speciality-content__bottom_info_item_subtitle {
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    line-height: 113.2%;
+    color: #FBFBFB;
+    margin-bottom: 2.7rem;
+    max-width: 19.8rem;
+    width: 100%;
+}
+
+.speciality-content__bottom_info_item_link {
+    border: 1.5px solid #fff;
+    border-radius: 10px;
+    font-size: 1.15rem;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    display: table;
+}
+
+.speciality-content__bottom_info_item_link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.speciality-content__bottom_info_item_linkbtn__margin {
+    margin-top: 1rem;
+}
+
+.speciality-content__bottom_info_item__orange {
+    background-color: #F2C94C;
+}
+
+.speciality-content__bottom_info_item_img__orange {
+    left: 3.25rem;
+}
+
+.speciality-content__bottom_info_item_img_litle_cms {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.speciality-content__bottom_info_item_img_litle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.speciality-content__bottom_info_item_img_litle {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 13.8rem;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.orange-content-paragraph {
+    margin-top: 1rem;
+}
+
+.speciality-content__bottom_info_item_title__orange {
+    color: #010D1B;
+    max-width: 15.8rem;
+    width: 100%;
+    font-weight: 900;
+}
+
+.speciality-content__bottom_info_item_subtitle {
+    color: #010D1B;
+}
+
+.dlin-mac-info-row_col-title__bot-form {
+    max-width: 71rem;
+    width: 100%;
+}
+
+.dlin-mac-info-row_col-subtitle__bot-form {
+    max-width: 38.5rem;
+    margin: inherit;
+}
+
+.dlin-form-bottom-white {
+    background-color: #fff;
+}
+
+.form-content_ivan__bot-white {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.ivan-info-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 1.8rem;
+}
+
+.form-content_ivan_name__bot-form-w {
+    color: #010D1B;
+}
+
+.form-content_ivan_info__bot-worm-w {
+    color: #010D1B;
+    opacity: 0.56;
+}
+
+.form-content_row__form-bot-w {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.form-buttons__form-bot-w {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.form-inp__form-bot-w {
+    background-color: #E5E5E5;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.form-buttons_personal_text__bot-form-w {
+    color: #005FCF;
 }
