@@ -308,6 +308,7 @@ img {
 }
 
 .slider-image {
+    position: relative;
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -407,6 +408,14 @@ img {
 .slider__white-page {
     margin-bottom: 8rem;
     margin-top: -5rem;
+}
+
+.wich-prodject {
+    position: absolute;
+    width: 8rem;
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
 }
 
 .section-buttons {
