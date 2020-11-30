@@ -4,6 +4,10 @@
 }
 
 /* Default styles */
+* {
+    outline: none;
+}
+
 body {
     margin: 0;
     font-family: 'URWgeometric', sans-serif;
@@ -1367,6 +1371,10 @@ img {
     color: #010D1B;
 }
 
+.button-dlin-page__slide-button__pink:hover {
+    color: #000;
+}
+
 .sec-sales {
     margin-bottom: 40rem;
 }
@@ -1523,6 +1531,8 @@ img {
     color: #E5E5E5;
     line-height: 113.2%;
     margin-left: 1rem;
+    margin-top: 17px;
+    margin-bottom: 13px;
     letter-spacing: 0.03em;
 }
 
@@ -1699,6 +1709,7 @@ img {
 .dlin-mac-info-row_col-title__bot-form {
     max-width: 71rem;
     width: 100%;
+    margin-bottom: 1.8rem;
 }
 
 .sec-bot-form {
