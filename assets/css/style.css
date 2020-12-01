@@ -1,6 +1,17 @@
 @font-face {
     font-family: 'URWgeometric';
     src: url(/assets/fonts/URWGeometric-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URWgeometric';
+  src: url(/assets/fonts/URWGeometric-ExtraBold.woff);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* Default styles */
@@ -15,6 +26,7 @@ body {
     overflow-x: hidden;
     font-weight: 400;
     color: #000;
+    background-color: #FBFBFB;
 }
 
 .container-custom {
@@ -928,6 +940,9 @@ img {
     max-width: 39rem;
     line-height: 134.2%;
     letter-spacing: 0.03em;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
 }
 
 .dlin-mac-info-row_col-subtitle {
@@ -1851,5 +1866,41 @@ img {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+    }
+
+    .mobile-bg-main {
+        background-image: url(/assets/img/top-mainimg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 1090px;
+        width: 100%;
+        padding-bottom: 86%;
+        position: relative;
+    }
+
+    .sec-macb {
+        background-image: none;
+        padding-bottom: inherit;
+    }
+
+    .dlin-mac-info-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .parthner {
+        position: absolute;
+        top: 5rem;
+        left: 11.9rem;
+    }
+
+    .dlin-mac-info-row_col {
+        margin-left: 6.5rem;
+    }
+
+    .dlin-mac-info-row_col-subtitle {
+        margin-left: 1.85rem;
     }
 }
