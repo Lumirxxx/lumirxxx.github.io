@@ -8,8 +8,16 @@
 
 @font-face {
     font-family: 'URWgeometric';
-  src: url(/assets/fonts/URWGeometric-ExtraBold.woff);
+  src: url(/assets/fonts/URWGeometric-Bold.woff);
   font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'URWgeometric';
+  src: url(/assets/fonts/URWGeometric-ExtraBold.woff);
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
@@ -858,10 +866,48 @@ img {
 }
 
 .up__header-dlin {
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     max-width: none;
+}
+
+.phone-dlin-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #FBFBFB;
+    -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 500px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 1.7rem;
+}
+
+.phone_img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.soc-dlin-header {
+    margin-top: 0;
+}
+
+.link-header:hover {
+    text-decoration: none;
+}
+
+.social-ico {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .dlin-mac-info-row {
@@ -928,6 +974,7 @@ img {
 }
 
 .sec-macb {
+    margin-top: 5rem;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -1273,6 +1320,10 @@ img {
     margin-bottom: -18.75rem;
 }
 
+.custom-checkbox__form-w:checked + label:before {
+    background-image: url(/assets/img/whitecheck.svg);
+}
+
 .shop-work-content {
     max-width: 1280px;
     width: 100%;
@@ -1565,6 +1616,7 @@ img {
     list-style-type: none;
     line-height: 171%;
     font-size: 1.15rem;
+    font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #E5E5E5;
@@ -1844,10 +1896,32 @@ img {
     .speciality-content_info {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        max-width: 39rem;
+        width: 100%;
+        margin: auto;
     }
 
     .speciality-content_info_item_list {
+        max-width: inherit;
+        width: 100%;
         margin: auto;
+        margin-top: 6.5rem;
+    }
+
+    .speciality-list {
+        text-align: center;
+    }
+
+    .speciality-list_point:before {
+        display: none;
+    }
+
+    .speciality-list_point {
+        font-size: 2.65rem;
+    }
+
+    .speciality-content__bottom {
+        margin-top: 6.5rem;
     }
 
     .speciality-content__bottom_info {
@@ -1902,5 +1976,228 @@ img {
 
     .dlin-mac-info-row_col-subtitle {
         margin-left: 1.85rem;
+    }
+
+    .row-succef-icon {
+        max-width: 29.5rem;
+        width: 100%;
+        margin: auto;
+    }
+
+    .row__bg-left {
+        max-width: 29.5rem;
+        width: 100%;
+        margin: auto;
+    }
+
+    .succe-info_title {
+        text-align: center;
+        margin-bottom: 10rem;
+        max-width: 41.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .succe-info-item_img {
+        max-width: 3.3rem;
+        width: 100%;
+    }
+
+    .succe-info-item__bottom_column {
+        padding-top: 0;
+        margin-left: 1.2rem;
+    }
+
+    .blue-form {
+        max-width: 41.5rem;
+        width: 100%;
+        margin: auto;
+    }
+
+    .form-content_row {
+        max-width: 30rem;
+        margin: auto;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .form-content {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .form-content_title {
+        text-align: center;
+    }
+
+    .button-dlin-page__form {
+        margin: auto;
+    }
+
+    .form-buttons_personal {
+        margin-left: 17px;
+    }
+
+    .form-content_ivan-photo_img {
+        margin: auto;
+    }
+
+    .form-content_ivan_name {
+        text-align: center;
+    }
+
+    .form-content_ivan_info {
+        text-align: center;
+    }
+
+    .up__header-dlin__shopw {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .shop-work-content_title {
+        text-align: center;
+    }
+
+    .shop-work-content_slide_row_col-info {
+        max-width: 36rem;
+        width: 100%;
+        margin-left: 4.1rem;
+    }
+
+    .slide-col-info_title {
+        font-size: 1.2rem;
+        max-width: 36rem;
+        width: 100%;
+    }
+
+    .slide-col-info_subtitle {
+        font-size: .8rem;
+        max-width: 33.75rem;
+        width: 100%;
+    }
+
+    .shop-work-content_slide {
+        max-width: 41.5rem;
+        margin: auto;
+        margin-bottom: 9.75rem;
+    }
+
+    .shop-work-content_slide_row_imgslide {
+        padding-bottom: 48%;
+        margin-left: 5.35rem;
+        background-position: top;
+    }
+
+    .shop-work-content_slide__pink {
+        margin-bottom: 13rem;
+    }
+
+    .sales-conten_info_col_item_img {
+        margin-top: 4rem;
+    }
+
+    .sales-conten_info_col_item_point {
+        margin-top: 1.5rem;
+    }
+
+    .dlin-form__mid {
+        display: none;
+    }
+
+    .sec-sales {
+        margin-bottom: 13.1rem;
+    }
+
+    .sec-speciality {
+        padding-top: 12.15rem;
+    }
+
+    .speciality-content_info_item_title {
+        max-width: 9.9rem;
+        width: 100%;
+    }
+
+    .speciality-content_title {
+        max-width: 41rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 6.5rem;
+    }
+
+    .speciality-content_title__bottom {
+        margin-bottom: 6.2rem;
+    }
+
+    .speciality-content__bottom_info_item__orange {
+        margin-top: 4rem;
+    }
+
+    .sec-bot-form {
+        padding-top: 59.1rem;
+        margin-top: -65rem;
+    }
+
+    .dlin-bot-form_title {
+        max-width: 41.5rem;
+        width: 100%;
+        margin: auto;
+    }
+
+    .dlin-mac-info-row_col-title__bot-form {
+        text-align: center;
+    }
+
+    .dlin-mac-info-row_col-subtitle__bot-form {
+        max-width: 27.5rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .dlin-form-bottom-white {
+        padding-top: 3rem;
+    }
+
+    .form-content_row__form-bot-w {
+        max-width: 25.7rem;
+        width: 100%;
+        margin: auto;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .ivan-info-form {
+        max-width: 13.9rem;
+    }
+
+    .form-content_ivan_name__bot-form-w {
+        text-align: start;
+    }
+
+    .form-content_ivan_info__bot-worm-w {
+        text-align: start;
+    }
+
+    .form-buttons__form-bot-w {
+        padding-top: 4rem;
+    }
+
+    .form-inp__form-bot-w {
+        margin-bottom: 1.25rem;
+    }
+
+    .button-dlin-page__form__white {
+        margin: initial;
+    }
+
+    .form-buttons_personal__white-form {
+        margin-top: 2rem;
     }
 }
