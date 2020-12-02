@@ -797,6 +797,10 @@ img {
     background-image: none;
 }
 
+.select-peoples {
+    display: none;
+}
+
 .content-inner__gray {
     background-color: #E5E5E5;
     color: #000;
@@ -2564,6 +2568,7 @@ img {
     }
 
     .select-peoples {
+        display: block;
         color: #010D1B;
         max-width: 300px;
         width: 100%;
