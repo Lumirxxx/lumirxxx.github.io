@@ -1,27 +1,36 @@
-@font-face {
+/*@font-face {
     font-family: 'URWgeometric';
-    src: url(/assets/fonts/URWGeometric-Regular.woff);
+    src: url(/assets/fonts/URWGeometric-Regular.woff) format("woff");
     font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+@font-face{
+    font-family: 'URWgeometric'; 
+    src: url(/assets/fonts/URWGeometric-Bold.woff) format("woff");
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'URWgeometric';
-  src: url(/assets/fonts/URWGeometric-Bold.woff);
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+@font-face{
+    font-family: 'URWgeometric'; 
+    src: url(/assets/fonts/URWGeometric-ExtraBold.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
 }
 
-@font-face {
-    font-family: 'URWgeometric';
-  src: url(/assets/fonts/URWGeometric-ExtraBold.woff);
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
+@font-face{
+    font-family: 'URWgeometric'; 
+    src: url(/assets/fonts/URWGeometric-Black.ttf) format("ttf");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
 }
-
+*/
 /* Default styles */
 * {
     outline: none;
@@ -29,7 +38,7 @@
 
 body {
     margin: 0;
-    font-family: 'URWgeometric', sans-serif;
+    font-family: 'URW Geometric', sans-serif;
     font-size: 1rem;
     overflow-x: hidden;
     font-weight: 400;
@@ -45,7 +54,7 @@ body {
 }
 
 .container-dlin {
-    font-family: 'URWgeometric';
+    font-family: 'URW Geometric', sans-serif;
     margin: 0 auto;
     width: 100%;
     max-width: 1480px;
@@ -1017,7 +1026,7 @@ img {
 .dlin-mac-info-row_col-subtitle {
     max-width: 27.6rem;
     width: 100%;
-    margin: auto;
+    margin-left: 1.85rem;
     font-size: 2.4rem;
     line-height: 1.3;
 }
@@ -1078,6 +1087,7 @@ img {
     max-width: 51.5rem;
     margin-bottom: 5.85rem;
     text-transform: uppercase;
+    font-weight: 900;
 }
 
 .succe-info-item_title {
@@ -1092,12 +1102,31 @@ img {
     font-weight: 900;
 }
 
+.succe-info-item_title__perenos {
+    max-width: 135px;
+}
+
+.succe-info-item_title__perenos__search {
+    max-width: 100px;
+}
+
 .succe-info-item_subtitle {
     font-size: .9rem;
     color: #FFF9DD;
     opacity: 0.7;
     line-height: 1.12;
     letter-spacing: 0.03em;
+}
+
+.row__bg-left {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.row__bg-left_mobile-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .succe-info-item {
@@ -1370,15 +1399,28 @@ img {
 .shop-work-content_title {
     font-size: 4rem;
     font-weight: 900;
-    max-width: 1109px;
+    max-width: 940px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 153px;
     line-height: 130%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-top: 4.5rem;
     color: #010D1B;
     margin-bottom: 8rem;
+}
+
+.slide-col-info_title__white {
+    color: #fff;
+}
+
+.slide-col-info_subtitle__white {
+    color: #fff;
+}
+
+.shop-work-content_slide_achive_img img {
+    max-width: 117px;
+    width: 100%;
 }
 
 .slide-col-info_logo {
@@ -1454,7 +1496,6 @@ img {
 }
 
 .shop-work-content_slide_achive_img {
-    width: 5.85rem;
     height: 5.85rem;
     border-radius: 50%;
     position: relative;
@@ -2107,6 +2148,12 @@ img {
 
     .shop-work-content_title {
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title-span-perenos {
+        display: block;
     }
 
     .shop-work-content_slide_row_col-info {
@@ -2827,6 +2874,45 @@ img {
 
     .speciality-content__bottom_info_item_title__orange {
         max-width: 8.3rem;
+    }
+
+    .speciality-content__bottom_info {
+        margin-bottom: 13rem;
+    }
+
+    .sec-bot-form {
+        padding-top: 815px;
+    }
+
+    .form-content_ivan__bot-white {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .dlin-bot-form_title {
+        max-width: 16.5rem;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .dlin-form-bottom-white {
+        max-width: 16rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-content_ivan_name__bot-form-w {
+        font-size: 1.65rem;
+        text-align: center;
+    }
+
+    .form-content_ivan_info__bot-worm-w {
+        font-size: 1.2rem;
+        text-align: center;
     }
 }
 
