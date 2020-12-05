@@ -190,7 +190,8 @@ img {
 }
 
 .intro {
-    margin-bottom: 120px;
+    margin-bottom: 3rem;
+    margin-top: 3.2rem;
 }
 
 .intro-title {
@@ -438,7 +439,6 @@ img {
 
 .slider__white-page {
     margin-bottom: 8rem;
-    margin-top: -5rem;
 }
 
 .wich-prodject {
@@ -814,6 +814,16 @@ img {
     background-color: #E5E5E5;
     color: #000;
     position: relative;
+    padding-bottom: 2.5rem;
+}
+
+.content__gray {
+    margin-bottom: 4.5rem;
+}
+
+.content-container__gray {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .project-type-title__gray-form {
@@ -1009,7 +1019,7 @@ img {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 47%;
+    padding-bottom: 53%;
     background-image: url(/assets/img/top-mainimg.png);
 }
 
@@ -1382,12 +1392,10 @@ img {
 }
 
 .button-dlin-page__other {
-    padding-right: 8.6rem;
-    padding-left: 8.8rem;
-    padding-top: 38px;
-    padding-bottom: 38px;
-    padding-top: 2.15rem;
-    padding-bottom: 2.15rem;
+    padding-bottom: 39px;
+    padding-top: 37px;
+    padding-left: 76px;
+    padding-right: 167px;
 }
 
 .shop-work-content {
