@@ -553,6 +553,11 @@ img {
     padding: 0 45px;
 }
 
+.content-container__nopadding {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .content-title {
     margin-bottom: 56px;
     font-size: 43px;
@@ -783,7 +788,8 @@ img {
     opacity: .7;
     font-weight: 400;
     max-width: 16.8rem;
-    margin-left: auto;
+    margin-left: 2.9rem;
+    margin-right: auto;
 }
 
 .content__other {
@@ -951,6 +957,20 @@ img {
     display: flex;
 }
 
+.phone-dlin-header__dark {
+    background: #010D1B;
+    -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.link-header__white {
+    color: #fff;
+}
+
+.link-header__white:hover {
+    color: #fff;
+}
+
 .dlin-mac-info-row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1048,9 +1068,10 @@ img {
 .sub-title-red {
     color: #fff;
     background-color: #D74D40;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
     border-radius: 6px;
+    display: inline-block;
 }
 
 .button-dlin-page {
@@ -1453,7 +1474,7 @@ img {
 
 .shop-work-content_slide {
     position: relative;
-    background-color: #C4C4C4;
+    background-color: #EEEEF0;
     border-radius: 4px;
     padding-top: 4rem;
     margin-bottom: 11.25rem;
@@ -1515,7 +1536,7 @@ img {
 }
 
 .shop-work-content_slide__pink {
-    background-color: #856E92;
+    background-color: #A465A1;
 }
 
 .button-dlin-page__slide-button__pink {
