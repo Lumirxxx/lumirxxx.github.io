@@ -189,6 +189,10 @@ img {
     margin-top: -15px;
 }
 
+.mobile-header-link-tel {
+    display: none;
+}
+
 .intro {
     margin-bottom: 3rem;
     margin-top: 3.2rem;
@@ -910,6 +914,14 @@ img {
 
 .input-radio-check:checked + .check-button:before {
     display: block;
+}
+
+.content-title__mobile {
+    display: none;
+}
+
+.content-title__mobile__whitepage {
+    color: #000;
 }
 
 .up__header-dlin {
@@ -2170,6 +2182,13 @@ img {
         align-items: center;
     }
 
+    .confidacition__other {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
     .form-content_title {
         text-align: center;
     }
@@ -3008,20 +3027,6 @@ img {
         margin-bottom: 1.6rem;
     }
 
-    .button-dlin-page__other__top-info {
-        padding-top: 18px;
-        padding-bottom: 19px;
-        padding-left: 3.5rem;
-        padding-right: 3.5rem;
-        background-image: none;
-        font-weight: 700;
-        font-size: 1rem;
-        margin: auto;
-        -webkit-box-shadow: 0px 34px 54px rgba(20, 124, 248, 0.21), 0px 4px 0px #004DA7, inset 0px 4px 44px rgba(255, 255, 255, 0.25);
-        box-shadow: 0px 34px 54px rgba(20, 124, 248, 0.21), 0px 4px 0px #004DA7, inset 0px 4px 44px rgba(255, 255, 255, 0.25);
-        border-radius: 7px;
-    }
-
     .intro {
         margin-bottom: 3rem;
     }
@@ -3055,6 +3060,12 @@ img {
     }
 
     .content-project-types {
+        max-width: 15rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .project-type-item {
         display: none;
     }
 
@@ -3175,6 +3186,11 @@ img {
         width: 100%;
         margin-left: 0;
         margin-bottom: .9rem;
+        display: none;
+    }
+
+    .content-title__mobile {
+        display: block;
     }
 
     .content-container__other-form {
@@ -3195,5 +3211,52 @@ img {
     .section-footer-bt {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .button-dlin-page__other {
+        font-size: 1rem;
+        padding: 1.2rem 6rem 1.2rem 2.25rem;
+    }
+
+    .button-dlin-page__other__top-info {
+        padding-top: 18px;
+        padding-bottom: 19px;
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+        background-image: none;
+        font-weight: 700;
+        font-size: 1rem;
+        margin: auto;
+        -webkit-box-shadow: 0px 34px 54px rgba(20, 124, 248, 0.21), 0px 4px 0px #004DA7, inset 0px 4px 44px rgba(255, 255, 255, 0.25);
+        box-shadow: 0px 34px 54px rgba(20, 124, 248, 0.21), 0px 4px 0px #004DA7, inset 0px 4px 44px rgba(255, 255, 255, 0.25);
+        border-radius: 7px;
+    }
+
+    .header-logo {
+        margin-bottom: 0;
+    }
+
+    .intro {
+        margin-top: 38px;
+    }
+
+    .mobile-header-link-tel {
+        display: block;
+        font-size: 19px;
+        line-height: 23px;
+        margin-top: .7rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #000000;
+        opacity: 0.5;
+    }
+
+    .mobile-header-link-tel:hover {
+        text-decoration: none;
+        color: #000000;
     }
 }
