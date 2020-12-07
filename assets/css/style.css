@@ -3191,4 +3191,9 @@ img {
         margin-right: auto;
         text-align: center;
     }
+
+    .section-footer-bt {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
