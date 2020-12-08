@@ -7,6 +7,7 @@ $('.owl-carousel').owlCarousel({
     URLhashListener:true,
     autoplayHoverPause:true,
     startPosition: 'URLHash'
+    
 });
 
 
@@ -24,3 +25,10 @@ $('.owl-carousel').owlCarousel({
          }
      }
  });
+
+ $(function() {
+    $('.button-color').on('click', function(){
+        $('.button-color').removeClass('blue');
+        $(this).addClass('blue');
+    });
+});

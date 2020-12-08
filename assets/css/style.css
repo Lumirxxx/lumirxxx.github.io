@@ -453,6 +453,10 @@ img {
     transform: translateY(50%);
 }
 
+.button-color.blue {
+    background-color: #005FCF;
+}
+
 .section-buttons {
     margin-bottom: 100px;
     display: -webkit-box;
