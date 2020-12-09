@@ -1154,7 +1154,7 @@ img {
 }
 
 .succe-info-item_title__perenos__search {
-    max-width: 100px;
+    max-width: 125px;
 }
 
 .succe-info-item_subtitle {
@@ -1182,7 +1182,7 @@ img {
 
 .col__bg-left {
     background-image: url(/assets/img/mencomputer.png);
-    background-size: cover;
+    background-size: contain;
     background-position: inherit;
     background-repeat: no-repeat;
     display: -webkit-box;
@@ -1222,6 +1222,8 @@ img {
 }
 
 .succe-info-item_title__nomargin {
+    max-width: 15.45rem;
+    width: 100%;
     margin-top: 0;
     font-size: 1.65rem;
 }
@@ -1234,6 +1236,20 @@ img {
 
 .succe-info-item__padding {
     padding-top: 4rem;
+}
+
+.ucce-info-item_subtitle___1c {
+    max-width: 14.75rem;
+    width: 100%;
+}
+
+.succe-info-item_subtitle__sklad {
+    max-width: 14.85rem;
+    width: 100%;
+}
+
+.succe-info-item_subtitle__seo {
+    max-width: 7.1rem;
 }
 
 .dlin-form {
@@ -1263,7 +1279,7 @@ img {
 .form-content_title {
     margin-bottom: 3.2rem;
     font-size: 4rem;
-    color: #fff;
+    color: #CFEBED;
     line-height: 113.2%;
     letter-spacing: 0.03em;
     font-family: Urwgeometric, sans-serif;
@@ -1444,9 +1460,9 @@ img {
 .shop-work-content_title {
     font-size: 4rem;
     font-weight: 900;
-    max-width: 940px;
+    max-width: 1000px;
     margin-right: auto;
-    margin-left: 153px;
+    margin-left: 0;
     line-height: 130%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -1464,7 +1480,6 @@ img {
 }
 
 .shop-work-content_slide_achive_img img {
-    max-width: 117px;
     width: 100%;
 }
 
@@ -1541,9 +1556,20 @@ img {
 }
 
 .shop-work-content_slide_achive_img {
+    width: 5.85rem;
     height: 5.85rem;
+    text-align: center;
     border-radius: 50%;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .up__header-dlin__shopw {
@@ -1635,7 +1661,7 @@ img {
 }
 
 .sales-conten_info_col_item_subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 113.2%;
     letter-spacing: 0.03em;
     color: #010D1B;
@@ -1661,6 +1687,10 @@ img {
 
 .list {
     padding: 0;
+}
+
+.sales-conten_info_col_item_point {
+    margin-top: 1.5rem;
 }
 
 .sec-speciality {
@@ -1831,7 +1861,7 @@ img {
     color: #fff;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 3px;
+    padding-top: 2px;
     padding-bottom: 2px;
     display: table;
 }
@@ -1973,9 +2003,12 @@ img {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    margin-right: -12px;
+    margin-left: -12px;
 }
 
 .form-inp__form-bot-w {
+    width: 100%;
     background-color: #E5E5E5;
     margin-top: 0;
     margin-bottom: 0;
@@ -1983,6 +2016,29 @@ img {
 
 .form-buttons_personal_text__bot-form-w {
     color: #005FCF;
+}
+
+.form-buttons_input__white {
+    max-width: 33%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.blue-form-button-white__bottom {
+    max-width: 33%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.dlin-bot-form {
+    max-width: 70.2rem;
+    margin-left: auto;
 }
 
 @media (max-width: 991px) {
