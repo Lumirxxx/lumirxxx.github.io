@@ -453,7 +453,7 @@ img {
     transform: translateY(50%);
 }
 
-.button-color.blue {
+.button-color.active {
     background-color: #005FCF;
 }
 
@@ -1282,7 +1282,6 @@ img {
     color: #CFEBED;
     line-height: 113.2%;
     letter-spacing: 0.03em;
-    font-family: Urwgeometric, sans-serif;
 }
 
 .form-content_ivan-photo {
