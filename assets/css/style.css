@@ -2037,7 +2037,6 @@ img {
 }
 
 .dlin-bot-form {
-    max-width: 70.2rem;
     margin-left: auto;
 }
 
@@ -2358,6 +2357,20 @@ img {
 
     .speciality-content_title__bottom {
         margin-bottom: 6.2rem;
+    }
+
+    .form-buttons_input__white {
+        max-width: 100%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
+
+    .blue-form-button-white__bottom {
+        max-width: 100%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
     }
 
     .speciality-content__bottom_info_item__orange {
