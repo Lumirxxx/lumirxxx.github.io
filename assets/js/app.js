@@ -13,6 +13,17 @@ $('.owl-carousel').owlCarousel({
     startPosition: 'URLHash',
     responsiveClass:true,
     dotsContainer:'#demos-linkk',
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
     
 });
 
