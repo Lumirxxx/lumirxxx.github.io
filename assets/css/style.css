@@ -120,6 +120,14 @@ body {
 
 .image-13 {
     margin-right: 10px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.image-13:hover {
+    -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.45);
 }
 
 img {
@@ -171,12 +179,33 @@ img {
 
 .tele {
     overflow: hidden;
+    border-radius: 50%;
+}
+
+.tele:hover {
+    -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.45);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
 }
 
 .whats {
     overflow: hidden;
     margin-left: -10px;
     padding-left: 0px;
+    border-radius: 50%;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.whats:hover {
+    -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.45);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
 }
 
 .phone {
@@ -409,6 +438,16 @@ img {
     font-size: .8rem;
     font-weight: 400;
     color: #fff;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.button-3:hover {
+    -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.45);
+    color: #fff;
     text-decoration: none;
 }
 
@@ -562,10 +601,15 @@ img {
 .button--red {
     background-color: #D74D40;
     color: #fff;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
     text-decoration: none;
 }
 
 .button--red:hover {
+    -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.45);
     background-color: #D74D40;
     text-decoration: none;
     color: #fff;
@@ -1008,6 +1052,14 @@ img {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 1.7rem;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.phone-dlin-header:hover {
+    -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.45);
 }
 
 .phone_img {
@@ -1165,11 +1217,16 @@ img {
     display: table;
     text-decoration: none;
     color: #fff;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
 }
 
 .button-dlin-page:hover {
     color: #fff;
     text-decoration: none;
+    -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.45);
 }
 
 .mac-content_button-row {
@@ -2130,6 +2187,17 @@ img {
 
 .form-buttons_personal__white-form__mobile-block {
     display: none;
+}
+
+.main-form-button {
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.main-form-button:hover {
+    -webkit-box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.35);
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.35);
 }
 
 @media (max-width: 991px) {
@@ -3218,6 +3286,10 @@ img {
 @media (max-width: 575px) {
     .blue-form-button-white__top-info {
         display: block;
+    }
+
+    .link-header {
+        font-size: .7rem;
     }
 
     .up__header {
