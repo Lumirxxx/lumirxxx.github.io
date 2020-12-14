@@ -2623,6 +2623,20 @@ img {
     }
 }
 
+@media (max-width: 991px) {
+    .row-succef-icon {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .row__bg-left_mobile-row {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
 @media (max-width: 767px) {
     .up__header-dlin {
         -webkit-box-orient: vertical;
